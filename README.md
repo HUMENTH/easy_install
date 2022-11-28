@@ -36,9 +36,9 @@ If you are on a fresh server and logged in as root, at first create a dedicated 
 
 *(you can specify the flag --home to specify a directory for your [frappe-user]. Bench will follow the home directory specified by the user's home directory e.g. /data/[frappe-user]/frappe-bench)*
 
-Switch to `[frappe-user]` (using `su [frappe-user]`) and start the setup
+Switch to `[frappe-user]` (using `su - [frappe-user]`) and start the setup
 
-	wget https://raw.githubusercontent.com/frappe/bench/develop/install.py
+	wget https://raw.githubusercontent.com/frappe/easy_install/develop/install.py
 
 
 #### 1. Run the install script
